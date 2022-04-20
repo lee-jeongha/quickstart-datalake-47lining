@@ -67,14 +67,38 @@ Mappings:
       KinesisFirehoseCIDR: 52.70.63.192/27
     us-east-2:
       KinesisFirehoseCIDR: 13.58.135.96/27
+    us-west-1:
+     KinesisFirehoseCIDR: 13.57.135.192/27
     us-west-2:
       KinesisFirehoseCIDR: 52.89.255.224/27
+    ca-central-1:
+      KinesisFirehoseCIDR: 35.183.92.128/27
     eu-west-1:
       KinesisFirehoseCIDR: 52.19.239.192/27
+    eu-west-2:
+      KinesisFirehoseCIDR: 18.130.1.96/27
+    eu-west-3:
+      KinesisFirehoseCIDR: 35.180.1.96/27
     eu-central-1:
       KinesisFirehoseCIDR: 35.158.127.160/27
+    eu-north-1:
+      KinesisFirehoseCIDR: 13.53.63.224/27
     ap-southeast-1:
       KinesisFirehoseCIDR: 13.228.64.192/27
+    ap-southeast-2:
+      KinesisFirehoseCIDR: 13.210.67.224/27
+    ap-south-1:
+      KinesisFirehoseCIDR: 13.232.67.32/27
+    ap-northeast-1:
+      KinesisFirehoseCIDR: 13.113.196.224/27
+    ap-northeast-2:
+      KinesisFirehoseCIDR: 13.209.1.64/27
+    ap-east-1:
+      KinesisFirehoseCIDR: 18.162.221.32/27
+    sa-east-1:
+      KinesisFirehoseCIDR: 18.228.1.128/27
+    me-south-1:
+      KinesisFirehoseCIDR: 15.185.91.0/27
 Conditions:
   IsMultiNodeCluster: !Not
     - !Equals
