@@ -12,7 +12,7 @@ Resources:
     Type: Custom::RandomString
     Properties:
       ServiceToken: !Ref RandomStringArn
-      Number: 7
+      Number: 4
   SubmissionsBucket:
     Type: AWS::S3::Bucket
     Properties:
@@ -173,7 +173,6 @@ Resources:
         - "-"
         - - datalake
           - athena
-          - query
           - results
           - !Ref "AWS::AccountId"
           - !Ref "AWS::Region"
